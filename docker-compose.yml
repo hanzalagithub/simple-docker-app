@@ -1,11 +1,11 @@
-version: '3'
+# version: '3'
 services:
   frontend:
-    build: ./frontend
+    image: ahmedhanzala01/frontend-app:v1  # Use the Docker Hub image for frontend
     ports:
       - "8080:80"
 
   backend:
-    build: ./backend
+    image: ahmedhanzala01/backend-app:v1  # Use the Docker Hub image for backend
     ports:
       - "3000:3000"
