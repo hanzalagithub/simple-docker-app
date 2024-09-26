@@ -1,7 +1,7 @@
 # version: '3'
 services:
   frontend:
-    image: ahmedhanzala01/frontend-app:v1  # Use the Docker Hub image for frontend
+    image: ahmedhanzala01/frontend-app:v2  # Updated to v2
     ports:
       - "8080:80"
 
