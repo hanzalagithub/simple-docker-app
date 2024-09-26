@@ -6,6 +6,6 @@ services:
       - "8080:80"
 
   backend:
-    image: ahmedhanzala01/backend-app:v1  # Use the Docker Hub image for backend
+    image: ahmedhanzala01/backend-app:v2  # Use the Docker Hub image for backend
     ports:
       - "3000:3000"
