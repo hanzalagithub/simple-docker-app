@@ -1,7 +1,7 @@
 // script.js
 const fetchMessage = async () => {
     try {
-      const response = await fetch('/api/message');
+      const response = await fetch('http://43.204.230.66:3000/api/message');
       const data = await response.json();
       document.getElementById('message').innerText = data.message;
     } catch (error) {
