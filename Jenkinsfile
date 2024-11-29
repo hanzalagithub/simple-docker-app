@@ -14,6 +14,7 @@ pipeline {
         }
         stage('Push Images') {
             steps {
+                sh 'docker login -u ${ahmedhanzala01} -p ${Hanzala5916}'
                 sh 'docker push ahmedhanzala01/backend-app:v1'
                 sh 'docker push ahmedhanzala01/frontend-app:v1'
             }
